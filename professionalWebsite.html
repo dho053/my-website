@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David Ho's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <meta name="description" content="David Ho's personal portfolio showcasing education, experience, and skills." />
+  <meta name="keywords" content="David Ho, portfolio, UCR, Computer Science, web development, projects" />
+</head>
+<body>
+  <header>
+    <nav id="desktop-nav">
+      <div class="logo">David Ho</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#misc">Misc.</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="pfp.png" alt="David Ho profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">David Ho</h1>
+        <p class="section__text__p2">Student at UCR</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('Copy of Resume_David_Ho.pdf')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img src="linkedin_logo.png" alt="LinkedIn profile" class="icon" onclick="location.href='https://linkedin.com/'" />
+          <img src="github_logo.png" alt="Github profile" class="icon" onclick="location.href='https://github.com/'" />
+        </div>
+      </div>
+    </section> 
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="oc3.png" alt="David Ho in Orange County" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h3>Summary</h3>
+              <p>I was born and raised in Orange County, where I developed a deep appreciation for the vibrant culture and innovative spirit of the area. My interests span across music, concerts, and technology, reflecting a dynamic blend of artistic and technical pursuits.</p>
+              <h3>Resume</h3>
+              <button class="btn btn-color-2" onclick="window.open('Copy of Resume_David_Ho.pdf')">
+                Download CV
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Education</h1>
+      <div class="education-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h3>Education</h3>
+            <p>B.S. Computer Science<br />High School Diploma</p>
+          </div>
+          <div class="details-container">
+            <h2 class="education-sub-title">Skills</h2>
+            <div class="article-container">
+              <article>
+                <img src="checkmark.png" alt="HTML icon" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="CSS icon" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="C++ icon" class="icon" />
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="JavaScript icon" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Arduino icon" class="icon" />
+                <div>
+                  <h3>Arduino</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Material UI icon" class="icon" />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="arduino.png" alt="Arduino Sensor Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Arduino Sensor</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="library2.png" alt="Library Database Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Library Database</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="misc">
+      <h1 class="title">Misc.</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="vsa2.png" alt="David Ho with VSA" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h3>Extracurriculars</h3>
+              <p>My involvement in extracurricular activities has been diverse and enriching, allowing me to develop various skills and contribute to different communities. One of my significant commitments has been with the Vietnamese Student Association (VSA), where I actively participate in cultural events, community outreach, and leadership activities. Through VSA, I have gained a deeper appreciation for my heritage and have had the opportunity to promote cultural awareness and unity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="gmail.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:hodavid325@gmail.com">hodavid325@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="linkedin_logo.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="github_logo.png" alt="Github icon" class="icon contact-icon" />
+          <p><a href="https://www.github.com">Github</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#misc">Misc.</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>&copy; 2024 David Ho. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
